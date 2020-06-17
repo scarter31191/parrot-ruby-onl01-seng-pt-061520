@@ -1,4 +1,5 @@
-def parrot(phrase = "Squawk!")
-  phrase = "Pretty bird!"
+def parrot(phrase = "Pretty bird!")
+  phrase = parrot "Pretty bird!"
+  puts parrot
   return "Squawk!"
 end
